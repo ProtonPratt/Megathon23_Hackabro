@@ -6,7 +6,8 @@
 4. Sai
 5. Rohit
 
-## Problem statement
+# Problem statement
+Analyze candidates personality/behaviour using social media analysis, psychometric test and challenging puzzles. Represent it using a good design.
 # Personality and Behavior Analysis System
 
 In the ever-evolving landscape of talent acquisition, there is a growing need for a comprehensive system to analyze candidates' personalities and behaviors. This system aims to integrate social media analysis, psychometric tests, and challenging puzzles, utilizing machine learning for a robust and insightful evaluation.
