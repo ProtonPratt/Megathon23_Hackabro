@@ -1,3 +1,7 @@
+function load() {
+    document.getElementById("promptDisplay").enabled = false;
+}
+
 function submitForm() {
     // Get values from form
     var form = document.getElementById('socialMediaForm');
@@ -21,15 +25,25 @@ function submitForm() {
         MBTI: mbtiIndicator
       };
 
+
+    document.getElementById('submitButton').enabled = false;
+
     fetch('/submit', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(formData)
-    }).then(response => response.json()).then(object => console.log(object.message));
+    }).then(response => response.json()).then(object => {
+        console.log(object.message);
+        document.getElementById("promptDisplay").innerHTML   = object.message;
+    });
 
-    
+    twitterHandle.value = '';
+    linkedinHandle.value = '';
+    mbtiIndicator.value = '';
+
+    document.getElementById('submitButton').enabled = true;
 
   }
    
