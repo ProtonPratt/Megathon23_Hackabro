@@ -19,3 +19,11 @@ Run `app.py`
 # Description
 
 Implemented a job recommendation model based on your social media presence.
+
+# Members
+
+1) Saideekshith Vaddineni
+2) Rohit Varma
+3) C Swaroop
+4) Hari Shankar
+5) Pratyush Jena
