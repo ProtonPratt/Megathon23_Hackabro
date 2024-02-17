@@ -15,3 +15,7 @@ gcloud auth application-default set-quota-project gifted-freehold-403415
 ```
 
 Run `app.py`
+
+# Description
+
+Implemented a job recommendation model based on your social media presence.
